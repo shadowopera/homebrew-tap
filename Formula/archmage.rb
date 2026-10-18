@@ -1,27 +1,27 @@
 class Archmage < Formula
   desc "Polished configuration solution for game development"
   homepage "https://shadop.dev"
-  version "1.0.0"
+  version "1.1.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/shadowopera/archmage/releases/download/v1.0.0/archmage_1.0.0_macos_arm64.tar.gz"
-      sha256 "7171bfcfac6e59fcf9873e37fd8e0eed08a5c06a158bf0d1c593e85fa5f5d156"
+      url "https://github.com/shadowopera/archmage/releases/download/v1.1.0/archmage_1.1.0_macos_arm64.tar.gz"
+      sha256 "726c3562ae7157f6830812512dba8feab91d681d699a0b9675a924e103472af2"
     end
     on_intel do
-      url "https://github.com/shadowopera/archmage/releases/download/v1.0.0/archmage_1.0.0_macos_x86_64.tar.gz"
-      sha256 "89b9c4e767c3bc0bff60b881971deb9b2c9f70b5eea700ed949767bfed300286"
+      url "https://github.com/shadowopera/archmage/releases/download/v1.1.0/archmage_1.1.0_macos_x86_64.tar.gz"
+      sha256 "086f905f58eac07cbd90f41860cb2129c4e4bb6e41828dce4c0867119f86f2df"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/shadowopera/archmage/releases/download/v1.0.0/archmage_1.0.0_linux_arm64.tar.gz"
-      sha256 "1a331226ebd1058bec71ca22d29ff94ff5da754b51aa354acbcd16b631eae7bd"
+      url "https://github.com/shadowopera/archmage/releases/download/v1.1.0/archmage_1.1.0_linux_arm64.tar.gz"
+      sha256 "37624468a7011b3a359a3fe8408ea2101bdd925450e86762e377881749eff2bd"
     end
     on_intel do
-      url "https://github.com/shadowopera/archmage/releases/download/v1.0.0/archmage_1.0.0_linux_x86_64.tar.gz"
-      sha256 "01d1954f1f329ff31056938402d6fcf369ee085e0adbdbe085c3e82b54c93fb0"
+      url "https://github.com/shadowopera/archmage/releases/download/v1.1.0/archmage_1.1.0_linux_x86_64.tar.gz"
+      sha256 "2385e31134139852dc53cb60fd592a0522a602d7dc891e7b9686b0a857ed6330"
     end
   end
 
