@@ -1,5 +1,5 @@
 class Archmage < Formula
-  desc "Polished configuration solution for game development"
+  desc "Polished config data solution for game development"
   homepage "https://shadop.dev"
   version "1.1.0"
 
